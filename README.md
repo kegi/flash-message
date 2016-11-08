@@ -8,6 +8,12 @@ A very simple flash message handler written in PHP. (**PHP 7.0+**)
 - Be default, **messages are deleted when opened**
 - **Lightweight** and **no dependencies**
 
+##Installation:
+With composer :
+```
+composer require kegi/flash-message
+```
+
 ## A very simple example :
 
 ```php
