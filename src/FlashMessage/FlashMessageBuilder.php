@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace KeGi\PromisesTracker\Core\FlashMessage;
+namespace KeGi\FlashMessage;
 
 use KeGi\FlashMessage\Exception\MissingVariableException;
 use KeGi\FlashMessage\Exception\UnknownVariableException;
