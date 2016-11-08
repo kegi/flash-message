@@ -34,11 +34,12 @@ $flashMessageController->success('Your profile was updated successfully !', true
 ```
 
 The second parameter is for uniqueness (default : true). If the same message already exists on that channel, it will be ignored.
+The second parameter is for uniqueness (default : true). If the same message already exists on that channel, it will be ignored.
 
 <a name="message-object"></a>
 ## Message object
 
-All returned messages implements **FlashMessageInterface** and offers you those methods
+All messages implements **FlashMessageInterface** and offers those methods
 
 ```
 $message->getUuid() : string;
@@ -103,7 +104,7 @@ This return an array of objects implementing **FlashMessageInterface**. By defau
 ### Get all messages
 
 ```
-getAllMessage ( [bool $clear = true] ) : array
+getAllMessages ( [bool $clear = true] ) : array
 ```
 This return an bi-dimensionnal array holdings each messages of each channels. By default, the messages are deleted when opened. To prevent this, you can set $clear to false.
 
