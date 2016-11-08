@@ -167,10 +167,15 @@ class FlashMessageController
      * @return array
      */
     public function getMessages(
-        string $channel = self::DEFAULT_CHANEL,
+        $channel = self::DEFAULT_CHANEL,
         bool $clear = true
     ) : array
     {
+
+        if($channel === null){
+            $channel = self::DEFAULT_CHANEL;
+        }
+
         $messages = $this->getDriver()->getByChannel($channel);
 
         if ($clear) {
