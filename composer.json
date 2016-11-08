@@ -1,0 +1,21 @@
+{
+  "name": "kegi/flash-message",
+  "type": "library",
+  "description": "Flash messages handler",
+  "keywords": ["flash", "message", "session"],
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Kevin Gilbert",
+      "email": "kevin@kegisiteweb.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "KeGi\\FlashMessage\\": "src/FlashMessage"
+    }
+  }
+}
