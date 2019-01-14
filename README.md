@@ -1,14 +1,14 @@
 # Flash messages handler
 A very simple flash message handler written in PHP. (**PHP 7.0+**)
 
-##Features:
+## Features:
 - Based on **driver system** to write/read messages
 - **Multiple channels** (optionnal)
 - By default, **duplicated message within the same channel are ignored**
 - Be default, **messages are deleted when opened**
 - **Lightweight** and **no dependencies**
 
-##Installation:
+## Installation:
 With composer :
 ```
 composer require kegi/flash-message
@@ -35,9 +35,9 @@ var_dump($flashMessageController->getMessages());
 
 ```
 
-##Documentation
+## Documentation
 [Documentation](/docs/README.md).
 
-##Contribution
+## Contribution
 Feel free to contact me or send pull requests !
 **or send your own driver !**
