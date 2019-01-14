@@ -34,7 +34,7 @@ $flashMessageController->success('Your profile was updated successfully !', true
 ```
 
 The second parameter is for uniqueness (default : true). If the same message already exists on that channel, it will be ignored.
-The second parameter is for uniqueness (default : true). If the same message already exists on that channel, it will be ignored.
+The third parameter is the channel name (default : general).
 
 <a name="message-object"></a>
 ## Message object
