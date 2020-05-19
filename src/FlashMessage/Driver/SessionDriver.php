@@ -150,7 +150,7 @@ class SessionDriver implements DriverInterface
             foreach ($channelMessages as $messageUuid => $messageData) {
 
                 if ($messageUuid === $uuid) {
-                    unset($_SESSION[$this->getSessionVar()][$channelMessages][$messageUuid]);
+                    unset($_SESSION[$this->getSessionVar()][$channel][$messageUuid]);
                 }
             }
         }
